@@ -1,0 +1,6 @@
+HumanMessage(content="Hi")
+AIMessage(content="Hello! How can I help you today?")
+HumanMessage(content="I want to request a refund for my order.")
+AIMessage(content="Please provide your order ID and the reason for the refund.")
+HumanMessage(content="My order ID is 123456789 and the reason for the refund is that the product is damaged.")
+AIMessage(content="Thank you for providing the information. I will process your refund request.")
