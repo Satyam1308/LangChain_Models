@@ -1,5 +1,5 @@
 from langchain_core.output_parsers import StrOutputParser
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 load_dotenv()
@@ -18,10 +18,10 @@ prompt_template2 = PromptTemplate(
 )
 
 #Model1
-model1 = ChatOpenAI(model="gpt-4o-mini")
+model1 = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 #Model2
-model2 = ChatOpenAI(model="gpt-4o-mini")
+model2 = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 # Output Parser
 parser = StrOutputParser()
